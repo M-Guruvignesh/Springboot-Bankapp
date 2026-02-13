@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Bank Management App</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <div class="container">
+    <h1>🏦 Bank Management App</h1>
+
+    <section>
+      <h2>Create Account</h2>
+      <input type="text" id="createName" placeholder="Account Holder Name">
+      <input type="number" id="createBalance" placeholder="Initial Balance">
+      <button onclick="createAccount()">Create</button>
+    </section>
+
+    <section>
+      <h2>Get Account Details</h2>
+      <input type="number" id="getAccountNumber" placeholder="Account Number">
+      <button onclick="getAccount()">Get Details</button>
+      <pre id="accountDetails"></pre>
+    </section>
+
+    <section>
+      <h2>Deposit Money</h2>
+      <input type="number" id="depositAccountNumber" placeholder="Account Number">
+      <input type="number" id="depositAmount" placeholder="Amount">
+      <button onclick="depositMoney()">Deposit</button>
+    </section>
+
+    <section>
+      <h2>Withdraw Money</h2>
+      <input type="number" id="withdrawAccountNumber" placeholder="Account Number">
+      <input type="number" id="withdrawAmount" placeholder="Amount">
+      <button onclick="withdrawMoney()">Withdraw</button>
+    </section>
+
+    <section>
+      <h2>Close Account</h2>
+      <input type="number" id="deleteAccountNumber" placeholder="Account Number">
+      <button onclick="closeAccount()">Close</button>
+    </section>
+
+    <section>
+      <h2>All Accounts</h2>
+      <button onclick="getAllAccounts()">Show All</button>
+      <pre id="allAccounts"></pre>
+    </section>
+  </div>
+
+  <script src="script.js"></script>
+</body>
+</html>
