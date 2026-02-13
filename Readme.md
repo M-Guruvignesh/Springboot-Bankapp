@@ -51,5 +51,4 @@ Application runs at:
 ## 👨‍💻 Author
 
 Guruvignesh M
-
----
+[GitHub Profile](https://github.com/M-Guruvignesh/Springboot-Bankapp/tree/main/BankManagementapp) 
